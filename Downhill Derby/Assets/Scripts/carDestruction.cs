@@ -7,12 +7,21 @@ public class carDestruction : MonoBehaviour
     public GameObject car;
     public GameObject[] destroyedCarPart;
     int childIndexRange = 3;
-
+    float carHealth = 100;
+    void takeDamage()
+    {
+        carHealth = carHealth - 20;
+    }
+    private void Update()
+    {
+        
+    }
     private void OnCollisionEnter(Collision collision)
     {
-        if(childIndexRange>1)
+        takeDamage();
+        if(childIndexRange>1 & (carHealth <= 80 || carHealth <= 60 || carHealth <= 40 || carHealth <= 20) )
         {
-            Debug.Log("obstacle hit");
+            Debug.Log("obstacle hit," + "current health = " + carHealth);
             if (collision.gameObject.tag =="Obstacles")
             {
                 int childIndex = Random.Range(1,childIndexRange+1);
