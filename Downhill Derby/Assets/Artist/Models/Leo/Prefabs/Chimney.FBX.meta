@@ -3,12 +3,16 @@ guid: a06e32f91ecc76d49aa13f15a4af2cd6
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
+<<<<<<< HEAD
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: No Name
     second: {fileID: 2100000, guid: 5d6279abbf752834a805e80459ad60cb, type: 2}
+=======
+  externalObjects: {}
+>>>>>>> parent of b34cf8f... Added: Bus_Shed and Picket Fences and it's materials with its textures. Created my own scene, created pre fabs of these imports.
   materials:
     importMaterials: 1
     materialName: 0
