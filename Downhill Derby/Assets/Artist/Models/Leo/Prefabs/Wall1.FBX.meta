@@ -8,6 +8,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
 <<<<<<< HEAD
+<<<<<<< HEAD
       name: 'Material #32'
     second: {fileID: 2100000, guid: f54d773fbe582464188be1ca9d241955, type: 2}
   - first:
@@ -19,6 +20,10 @@ ModelImporter:
       name: 'Material #33'
     second: {fileID: 2100000, guid: 43c66bd5fe5455f4f84f055505234934, type: 2}
 >>>>>>> parent of b34cf8f... Added: Bus_Shed and Picket Fences and it's materials with its textures. Created my own scene, created pre fabs of these imports.
+=======
+      name: 'Material #33'
+    second: {fileID: 2100000, guid: 43c66bd5fe5455f4f84f055505234934, type: 2}
+>>>>>>> parent of dc1d572... Creating a scene
   materials:
     importMaterials: 1
     materialName: 0

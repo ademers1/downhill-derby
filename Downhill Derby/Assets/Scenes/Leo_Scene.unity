@@ -368,7 +368,11 @@ Transform:
   m_GameObject: {fileID: 1756323848}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
   m_LocalScale: {x: 2.4526, y: 2.4526, z: 2.4526}
+=======
+  m_LocalScale: {x: 23.89936, y: 23.89936, z: 23.89936}
+>>>>>>> parent of dc1d572... Creating a scene
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -456,6 +460,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &2083945485
 PrefabInstance:
@@ -595,6 +600,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a404b7287178ba4ba905a54f902259c, type: 3}
+=======
+>>>>>>> parent of dc1d572... Creating a scene
 --- !u!1001 &1241482679119215060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -733,6 +740,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b6c1ff14f7e64794da9a0c147360695f, type: 3}
+<<<<<<< HEAD
 --- !u!1001 &5358097631160742983
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -817,6 +825,8 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 8f8185d4358a93b41af2c18295ae4c0b, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81447092c7a7b5c49acd21cb11423625, type: 3}
+=======
+>>>>>>> parent of dc1d572... Creating a scene
 --- !u!1001 &5552599778009025999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -886,6 +896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c7a0f5681ca0b8447a526f69665b888d, type: 3}
+<<<<<<< HEAD
 --- !u!1001 &6851755119117870636
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -960,6 +971,8 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 1a531d18147c88a45b07e0d44733a289, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42f5f754a9693044f8fef633e4e613dc, type: 3}
+=======
+>>>>>>> parent of dc1d572... Creating a scene
 --- !u!1001 &7854076453991079821
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -4,6 +4,7 @@ ModelImporter:
   serializedVersion: 26
   internalIDToNameTable: []
 <<<<<<< HEAD
+<<<<<<< HEAD
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -13,6 +14,9 @@ ModelImporter:
 =======
   externalObjects: {}
 >>>>>>> parent of b34cf8f... Added: Bus_Shed and Picket Fences and it's materials with its textures. Created my own scene, created pre fabs of these imports.
+=======
+  externalObjects: {}
+>>>>>>> parent of dc1d572... Creating a scene
   materials:
     importMaterials: 1
     materialName: 0
