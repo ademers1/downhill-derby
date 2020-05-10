@@ -28,7 +28,7 @@ public class CreateLevel : MonoBehaviour
     void Update()
     {
         OldLevel = pool.Dequeue();
-        if (Player.transform.position.y < OldLevel.transform.position.y - 100 && Player.transform.position.z > OldLevel.transform.position.z + 100)
+        if (Player.transform.position.y < OldLevel.transform.position.y - 50 && Player.transform.position.z > OldLevel.transform.position.z + 150)
         {
             OldLevel.transform.position = LevelPrefab.transform.position + new Vector3(0, -16.38f, 45.01f);
             LevelPrefab = OldLevel;
