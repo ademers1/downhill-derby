@@ -57,7 +57,7 @@ MonoBehaviour:
     min: 1
   baseHeight:
     m_OverrideState: 1
-    m_Value: 201
+    m_Value: 201.22
   meanHeight:
     m_OverrideState: 1
     m_Value: 1110
@@ -297,10 +297,10 @@ MonoBehaviour:
   active: 1
   m_AdvancedMode: 0
   skyType:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   skyAmbientMode:
-    m_OverrideState: 0
+    m_OverrideState: 1
     m_Value: 0
   fogType:
     m_OverrideState: 1
