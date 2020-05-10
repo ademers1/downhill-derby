@@ -4,13 +4,38 @@ using UnityEngine;
 
 public class carDestruction : MonoBehaviour
 {
-    public GameObject parent;
-
+    public GameObject car;
+    public GameObject[] destroyedCarPart;
+    int childIndexRange = 3;
+    float carHealth = 100;
+    void takeDamage()
+    {
+        carHealth = carHealth - 20;
+    }
+    private void Update()
+    {
+        
+    }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag =="Obstacles")
+        takeDamage();
+        if(childIndexRange>1 & (carHealth <= 80 || carHealth <= 60 || carHealth <= 40 || carHealth <= 20) )
         {
-            parent.transform.GetChild(1).gameObject.transform.parent = null;
+            Debug.Log("obstacle hit," + "current health = " + carHealth);
+            if (collision.gameObject.tag =="Obstacles")
+            {
+                int childIndex = Random.Range(1,childIndexRange+1);
+                childIndexRange--;
+                if(childIndexRange == 1)
+                {
+                    childIndex = 1;
+                }
+                GameObject child = car.transform.GetChild(childIndex).gameObject;
+                Instantiate(destroyedCarPart[childIndex-1], child.transform.position, child.transform.rotation);
+                Destroy(child);
+            }
+
         }
     }
+    
 }
