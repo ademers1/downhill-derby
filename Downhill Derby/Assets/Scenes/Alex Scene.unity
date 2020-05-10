@@ -1321,6 +1321,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8559017749525888483, guid: 1839b8186dfc36841bd2daf0c25922a2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7adb20d569011af4c9ad46d55d39c640, type: 2}
+    - target: {fileID: -6977533667106558409, guid: 1839b8186dfc36841bd2daf0c25922a2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7adb20d569011af4c9ad46d55d39c640, type: 2}
+    - target: {fileID: -4476806553834211098, guid: 1839b8186dfc36841bd2daf0c25922a2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7adb20d569011af4c9ad46d55d39c640, type: 2}
     - target: {fileID: -4216859302048453862, guid: 1839b8186dfc36841bd2daf0c25922a2,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1381,11 +1396,21 @@ PrefabInstance:
       propertyPath: m_LocalScale.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1623617503129790699, guid: 1839b8186dfc36841bd2daf0c25922a2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7adb20d569011af4c9ad46d55d39c640, type: 2}
     - target: {fileID: -927199367670048503, guid: 1839b8186dfc36841bd2daf0c25922a2,
         type: 3}
       propertyPath: m_Name
       value: CarWheelsDetatched (1)
       objectReference: {fileID: 0}
+    - target: {fileID: -404219913240850063, guid: 1839b8186dfc36841bd2daf0c25922a2,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 7adb20d569011af4c9ad46d55d39c640, type: 2}
     - target: {fileID: 6759592314614583060, guid: 1839b8186dfc36841bd2daf0c25922a2,
         type: 3}
       propertyPath: m_LocalPosition.x
