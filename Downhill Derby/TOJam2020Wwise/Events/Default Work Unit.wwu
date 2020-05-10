@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C812B11C-406C-4F69-A49D-F1DA2D9B1EF2}" SchemaVersion="97">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{C812B11C-406C-4F69-A49D-F1DA2D9B1EF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="ambience" ID="{15359154-22BB-4A48-926A-448C9338ED9D}" ShortID="20162919">
+					<ChildrenList>
+						<Event Name="ambienceBirds" ID="{FABAED40-04E8-4E2C-9B96-B47CBA98BC6E}"/>
+						<Event Name="ambienceLawnmower" ID="{B0DD8AD5-A335-41E5-ABCC-FE837054610A}">
+							<ChildrenList>
+								<Action Name="" ID="{18CCB9C2-3B00-4073-84CA-8D68C46A4BDD}" ShortID="481461187">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ambienceLawnmowerAudio" ID="{6D05AC8F-4838-4535-BC28-985812A01FFE}" WorkUnitID="{D0A25DBE-EDED-42B2-B22C-2C70AE9442C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="music" ID="{A2E9B99C-71FD-4C5B-9675-0BD6585AD034}" ShortID="409094295"/>
+				<Folder Name="drive" ID="{9E14A66A-8366-449F-9D13-E6FA030FCAA8}" ShortID="226626193">
+					<ChildrenList>
+						<Event Name="driveEngine" ID="{FF81F0A7-7B29-42DE-9F43-D8CD9FD65B66}">
+							<ChildrenList>
+								<Action Name="" ID="{1EECBEE6-6BB2-42C5-94BE-C8719B01E55D}" ShortID="764531109">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="driveEngine" ID="{FFA435CD-DE0F-4CD7-8F3B-CF1C8B48E4E3}" WorkUnitID="{D0A25DBE-EDED-42B2-B22C-2C70AE9442C2}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="collision" ID="{CF59E80B-65D5-433C-A16E-F3103B63E1A2}" ShortID="34682364"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

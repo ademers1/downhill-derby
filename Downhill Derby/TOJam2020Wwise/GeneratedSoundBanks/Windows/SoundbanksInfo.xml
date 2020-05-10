@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\</ProjectRoot>
+		<SourceFilesRoot>D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1689660427" Name="ambienceBirds" ObjectPath="\Events\Default Work Unit\ambience\ambienceBirds"/>
+				<Event Id="360702899" Name="ambienceLawnmower" ObjectPath="\Events\Default Work Unit\ambience\ambienceLawnmower">
+					<IncludedMemoryFiles>
+						<File Id="1067689765" Language="SFX">
+							<ShortName>ambienceLawnmowerAudio.wav</ShortName>
+							<Path>SFX\ambienceLawnmowerAudio_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3041090137" Name="driveEngine" ObjectPath="\Events\Default Work Unit\drive\driveEngine">
+					<IncludedMemoryFiles>
+						<File Id="706105255" Language="SFX">
+							<ShortName>driveEngineIdleAudio.wav</ShortName>
+							<Path>SFX\driveEngineIdleAudio_D79FB2B7.wem</Path>
+						</File>
+						<File Id="827438785" Language="SFX">
+							<ShortName>driveEngineLowAudio.wav</ShortName>
+							<Path>SFX\driveEngineLowAudio_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="2362289056" Name="driveSpeed" ObjectPath="\Game Parameters\Default Work Unit\driveSpeed"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

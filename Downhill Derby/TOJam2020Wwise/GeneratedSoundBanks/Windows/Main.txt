@@ -1,0 +1,13 @@
+Event	ID	Name			Wwise Object Path	Notes
+	360702899	ambienceLawnmower			\Default Work Unit\ambience\ambienceLawnmower	
+	1689660427	ambienceBirds			\Default Work Unit\ambience\ambienceBirds	
+	3041090137	driveEngine			\Default Work Unit\drive\driveEngine	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2362289056	driveSpeed			\Default Work Unit\driveSpeed	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	706105255	driveEngineIdleAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\driveEngineIdleAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\drive\driveEngine\driveEngineIdleAudio		176464
+	827438785	driveEngineLowAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\driveEngineLowAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\drive\driveEngine\driveEngineLowAudio		176464
+	1067689765	ambienceLawnmowerAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\ambienceLawnmowerAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\ambienceLawnmowerAudio		330078
+

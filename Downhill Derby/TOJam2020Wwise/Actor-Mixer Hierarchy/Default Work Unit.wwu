@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D0A25DBE-EDED-42B2-B22C-2C70AE9442C2}" SchemaVersion="97">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{D0A25DBE-EDED-42B2-B22C-2C70AE9442C2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="environment" ID="{28ABE3EA-7EA1-42D7-B099-4A1A933ACCC2}" ShortID="851400956">
+					<ChildrenList>
+						<Sound Name="ambienceLawnmowerAudio" ID="{6D05AC8F-4838-4535-BC28-985812A01FFE}" ShortID="850945358">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{907B4C99-B8A2-454E-A887-89FC1C7AC4D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1C7DE21C-DA9C-463C-9D05-78CA391BA8EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambienceLawnmowerAudio" ID="{4EAE4F9F-385C-4E69-A853-DFB6F210E81C}">
+									<Language>SFX</Language>
+									<AudioFile>ambienceLawnmowerAudio.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1067689765"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambienceLawnmowerAudio" ID="{4EAE4F9F-385C-4E69-A853-DFB6F210E81C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ambienceBirds" ID="{05960D95-A9AE-4A89-9DD4-D2C8DBD125B6}" ShortID="880649376">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{907B4C99-B8A2-454E-A887-89FC1C7AC4D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1C7DE21C-DA9C-463C-9D05-78CA391BA8EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ambienceBirds" ID="{67952582-7013-4EBE-B733-77CCC306EAFC}">
+									<Language>SFX</Language>
+									<AudioFile>ambienceBirds.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="276204050"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="ambienceBirds" ID="{67952582-7013-4EBE-B733-77CCC306EAFC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="drive" ID="{11C6B856-08D2-4406-AB71-1F24DAA25E05}" ShortID="884344959">
+					<ChildrenList>
+						<BlendContainer Name="driveEngine" ID="{FFA435CD-DE0F-4CD7-8F3B-CF1C8B48E4E3}" ShortID="279116169">
+							<PropertyList>
+								<Property Name="BlendBehavior" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{907B4C99-B8A2-454E-A887-89FC1C7AC4D2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1C7DE21C-DA9C-463C-9D05-78CA391BA8EC}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="driveEngineLowAudio" ID="{2CDF7F71-EAB1-4140-B1C6-8416157F329A}" ShortID="543837545">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{031C1DC0-B521-46F3-9ED5-34EFDDED641B}" ShortID="625575465">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="driveSpeed" ID="{B27CFE03-7769-4773-AB4D-C39C03C0E064}" WorkUnitID="{2A4782B3-2517-4898-BEA3-F461A4C436BA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{C8138EED-E6DA-4328-BC96-57C540B941CE}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>52</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>9.78261</XPos>
+																<YPos>35</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>0</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{EFC01BF9-AFC2-4A16-9C52-67AFD71A551E}" ShortID="298253367">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="driveSpeed" ID="{B27CFE03-7769-4773-AB4D-C39C03C0E064}" WorkUnitID="{2A4782B3-2517-4898-BEA3-F461A4C436BA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{B947E9F2-531C-4D5F-9B28-DE3E461089DA}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-2751</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>29.71015</XPos>
+																<YPos>-1106</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>1280</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-21</Value>
+											</ValueList>
+											<RTPCList>
+												<RTPC Name="" ID="{80FCCC42-10BE-4C7F-BCAE-0A9F9667BD70}" ShortID="376686816">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="driveSpeed" ID="{B27CFE03-7769-4773-AB4D-C39C03C0E064}" WorkUnitID="{2A4782B3-2517-4898-BEA3-F461A4C436BA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{23513119-D6BA-47BC-BAB0-FA554D975212}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="3"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-200</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>12.31884</XPos>
+																<YPos>-0</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>99.8188405797102</XPos>
+																<YPos>-0.353832269952154</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>-0.35458</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{907B4C99-B8A2-454E-A887-89FC1C7AC4D2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1C7DE21C-DA9C-463C-9D05-78CA391BA8EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="driveEngineLowAudio" ID="{AF8D87B1-1A57-409F-AEBD-EF917E54BB20}">
+											<Language>SFX</Language>
+											<AudioFile>driveEngineLowAudio.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="827438785"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="driveEngineLowAudio" ID="{AF8D87B1-1A57-409F-AEBD-EF917E54BB20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="driveEngineIdleAudio" ID="{EE9C6501-F346-4B0D-84E4-BF0BE7C8126F}" ShortID="456498724">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{A0B4C6E5-E7A6-4D4E-A2BA-9FF4BD55F18A}" ShortID="924095044">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="driveSpeed" ID="{B27CFE03-7769-4773-AB4D-C39C03C0E064}" WorkUnitID="{2A4782B3-2517-4898-BEA3-F461A4C436BA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{236DF094-43CB-43A1-B44F-88BE2E90B79B}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>29.16667</XPos>
+																<YPos>6</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>39.67391</XPos>
+																<YPos>33</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>37</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<RTPCList>
+												<RTPC Name="" ID="{576F9EF1-B09C-4F25-8D6C-765A866C989B}" ShortID="938595550">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="driveSpeed" ID="{B27CFE03-7769-4773-AB4D-C39C03C0E064}" WorkUnitID="{2A4782B3-2517-4898-BEA3-F461A4C436BA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{28C5B6F2-AC77-40AF-A3EC-CFD19429E4B8}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>0</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>40.76087</XPos>
+																<YPos>27</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>31</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<RTPCList>
+												<RTPC Name="" ID="{DA23B7A4-83E2-4BAF-B9A7-3B8F55AC72B7}" ShortID="624272859">
+													<ReferenceList>
+														<Reference Name="ControlInput">
+															<ObjectRef Name="driveSpeed" ID="{B27CFE03-7769-4773-AB4D-C39C03C0E064}" WorkUnitID="{2A4782B3-2517-4898-BEA3-F461A4C436BA}"/>
+														</Reference>
+													</ReferenceList>
+													<Curve Name="" ID="{E4B4A5C0-5A6D-4BD8-A054-8138DE5A4444}">
+														<PropertyList>
+															<Property Name="Flags" Type="int32" Value="65537"/>
+														</PropertyList>
+														<PointList>
+															<Point>
+																<XPos>0</XPos>
+																<YPos>-320</YPos>
+																<Flags>5</Flags>
+															</Point>
+															<Point>
+																<XPos>36.23188</XPos>
+																<YPos>2493</YPos>
+																<Flags>0</Flags>
+															</Point>
+															<Point>
+																<XPos>100</XPos>
+																<YPos>2432</YPos>
+																<Flags>37</Flags>
+															</Point>
+														</PointList>
+													</Curve>
+												</RTPC>
+											</RTPCList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{907B4C99-B8A2-454E-A887-89FC1C7AC4D2}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{1C7DE21C-DA9C-463C-9D05-78CA391BA8EC}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="driveEngineIdleAudio" ID="{A29B240F-EBDD-46C8-86CA-B1441CB0C29E}">
+											<Language>SFX</Language>
+											<AudioFile>driveEngineIdleAudio.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="706105255"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="driveEngineIdleAudio" ID="{A29B240F-EBDD-46C8-86CA-B1441CB0C29E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="collision" ID="{8C702E1A-C8A1-4876-A009-19417C4B34ED}" ShortID="523808011"/>
+				<Folder Name="music" ID="{7B410EA8-DCB7-424C-BE86-225DA814E09F}" ShortID="1022461373"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
