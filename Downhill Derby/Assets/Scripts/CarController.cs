@@ -14,7 +14,7 @@ public class CarController : MonoBehaviour
     public float maxTurn = 0.1f;
     public Transform CM;
     public Rigidbody rb;
-
+    float engineSpeedSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,11 +30,17 @@ public class CarController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(rb.velocity.magnitude > 10)
+        if(rb.velocity.magnitude > 100)
         {
-            AkSoundEngine.SetRTPCValue("driveSpeed", 50f);
+            engineSpeedSound = 100;
+
         }
-        foreach(WheelCollider wheel in throttleWheels)
+        else
+        {
+            engineSpeedSound = rb.velocity.magnitude;
+        }
+        AkSoundEngine.SetRTPCValue("driveSpeed", engineSpeedSound);
+        foreach (WheelCollider wheel in throttleWheels)
         {
             wheel.motorTorque = strengthCoefficient * Time.fixedDeltaTime * im.throttle;
         }

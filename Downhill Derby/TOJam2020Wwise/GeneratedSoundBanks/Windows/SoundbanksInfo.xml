@@ -21,12 +21,43 @@
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1689660427" Name="ambienceBirds" ObjectPath="\Events\Default Work Unit\ambience\ambienceBirds"/>
+				<Event Id="1689660427" Name="ambienceBirds" ObjectPath="\Events\Default Work Unit\ambience\ambienceBirds">
+					<IncludedMemoryFiles>
+						<File Id="276204050" Language="SFX">
+							<ShortName>ambienceBirds.wav</ShortName>
+							<Path>SFX\ambienceBirds_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="360702899" Name="ambienceLawnmower" ObjectPath="\Events\Default Work Unit\ambience\ambienceLawnmower">
 					<IncludedMemoryFiles>
 						<File Id="1067689765" Language="SFX">
 							<ShortName>ambienceLawnmowerAudio.wav</ShortName>
 							<Path>SFX\ambienceLawnmowerAudio_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2997256993" Name="collideCar" ObjectPath="\Events\Default Work Unit\collision\collideCar">
+					<IncludedMemoryFiles>
+						<File Id="76422932" Language="SFX">
+							<ShortName>collideCarAudio.wav</ShortName>
+							<Path>SFX\collideCarAudio_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="203765961" Name="collideEnvironmentPond" ObjectPath="\Events\Default Work Unit\collision\collideEnvironmentPond">
+					<IncludedMemoryFiles>
+						<File Id="976112527" Language="SFX">
+							<ShortName>collideEnvironmentPondAudio.wav</ShortName>
+							<Path>SFX\collideEnvironmentPondAudio_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3360968012" Name="collideEnvironmentSlime" ObjectPath="\Events\Default Work Unit\collision\collideEnvironmentSlime">
+					<IncludedMemoryFiles>
+						<File Id="652289018" Language="SFX">
+							<ShortName>collideEnvironmentSlimeAudio.wav</ShortName>
+							<Path>SFX\collideEnvironmentSlimeAudio_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -39,6 +70,22 @@
 						<File Id="827438785" Language="SFX">
 							<ShortName>driveEngineLowAudio.wav</ShortName>
 							<Path>SFX\driveEngineLowAudio_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="754392015" Name="driveGrass" ObjectPath="\Events\Default Work Unit\drive\driveGrass">
+					<IncludedMemoryFiles>
+						<File Id="420114579" Language="SFX">
+							<ShortName>driveGrassAudio.wav</ShortName>
+							<Path>SFX\driveGrassAudio_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3991942870" Name="music" ObjectPath="\Events\Default Work Unit\music\music">
+					<IncludedMemoryFiles>
+						<File Id="541128292" Language="SFX">
+							<ShortName>musicAudio.wav</ShortName>
+							<Path>SFX\musicAudio_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
