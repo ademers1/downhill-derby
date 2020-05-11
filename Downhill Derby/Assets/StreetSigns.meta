@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Downhill Derby/Assets/StreetSigns.meta
 guid: 7c19a744cdfd2d049b7ae5cd86d07c48
+=======
+guid: d55ea859cd1c5054fac6252d06c55535
+>>>>>>> 779f786ed9c004d3f5bde82e03bfc93f21524e51:Downhill Derby/Assets/StreamingAssets/Audio.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

@@ -1,13 +1,24 @@
 Event	ID	Name			Wwise Object Path	Notes
+	203765961	collideEnvironmentPond			\Default Work Unit\collision\collideEnvironmentPond	
 	360702899	ambienceLawnmower			\Default Work Unit\ambience\ambienceLawnmower	
+	754392015	driveGrass			\Default Work Unit\drive\driveGrass	
 	1689660427	ambienceBirds			\Default Work Unit\ambience\ambienceBirds	
+	2997256993	collideCar			\Default Work Unit\collision\collideCar	
 	3041090137	driveEngine			\Default Work Unit\drive\driveEngine	
+	3360968012	collideEnvironmentSlime			\Default Work Unit\collision\collideEnvironmentSlime	
+	3991942870	music			\Default Work Unit\music\music	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	2362289056	driveSpeed			\Default Work Unit\driveSpeed	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	76422932	collideCarAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\collideCarAudio_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\collision\collideCarAudio		147104
+	276204050	ambienceBirds	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\ambienceBirds_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\ambienceBirds		658844
+	420114579	driveGrassAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\driveGrassAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\drive\driveGrassAudio		243662
+	541128292	musicAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\musicAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\music\musicAudio		4519740
+	652289018	collideEnvironmentSlimeAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\collideEnvironmentSlimeAudio_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\collision\collideEnvironmentSlimeAudio		137004
 	706105255	driveEngineIdleAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\driveEngineIdleAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\drive\driveEngine\driveEngineIdleAudio		176464
 	827438785	driveEngineLowAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\driveEngineLowAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\drive\driveEngine\driveEngineLowAudio		176464
+	976112527	collideEnvironmentPondAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\collideEnvironmentPondAudio_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\collision\collideEnvironmentPondAudio		139222
 	1067689765	ambienceLawnmowerAudio	D:\Users\Aryo Nazaradeh\Documents\WwiseProjects\TOJam2020Wwise\.cache\Windows\SFX\ambienceLawnmowerAudio_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\environment\ambienceLawnmowerAudio		330078
 

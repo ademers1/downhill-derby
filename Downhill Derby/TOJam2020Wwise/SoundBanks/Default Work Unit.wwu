@@ -6,7 +6,9 @@
 				<SoundBank Name="Main" ID="{D3643A58-0817-44D5-9E1D-96102F2C40F1}">
 					<ObjectInclusionList>
 						<ObjectRef Name="ambienceLawnmower" ID="{B0DD8AD5-A335-41E5-ABCC-FE837054610A}" WorkUnitID="{C812B11C-406C-4F69-A49D-F1DA2D9B1EF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="driveEngine" ID="{FF81F0A7-7B29-42DE-9F43-D8CD9FD65B66}" WorkUnitID="{C812B11C-406C-4F69-A49D-F1DA2D9B1EF2}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ambienceBirds" ID="{FABAED40-04E8-4E2C-9B96-B47CBA98BC6E}" WorkUnitID="{C812B11C-406C-4F69-A49D-F1DA2D9B1EF2}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{C812B11C-406C-4F69-A49D-F1DA2D9B1EF2}" WorkUnitID="{C812B11C-406C-4F69-A49D-F1DA2D9B1EF2}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
