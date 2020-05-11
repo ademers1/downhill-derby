@@ -4,17 +4,16 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    public GameObject player;
-    private Vector3 offset;
-    // Start is called before the first frame update
-    void Start()
+    public GameObject car;
+    public float distance = 5f;
+    public float height = 2f;
+    public float dampening = 1f;
+
+
+    private void Update()
     {
-        offset = new Vector3(0, 5, -3);
+        transform.position = Vector3.Lerp(transform.position, car.transform.position +  car.transform.TransformDirection(new Vector3(0f, height, -distance)), dampening * Time.deltaTime);
+        transform.LookAt(car.transform);
     }
 
-    // Update is called once per frame
-    void LateUpdate()
-    {
-        transform.position = player.transform.position + offset;
-    }
 }
