@@ -2412,5 +2412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Car222
       objectReference: {fileID: 0}
+    - target: {fileID: 2347132337920986867, guid: 02a154fe11706fa4abd746d49bb72fc7,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02a154fe11706fa4abd746d49bb72fc7, type: 3}
