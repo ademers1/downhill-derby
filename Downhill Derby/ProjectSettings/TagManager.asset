@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Road
   - Wheel
+  - SpeedBoost
+  - Ground
   layers:
   - Default
   - TransparentFX

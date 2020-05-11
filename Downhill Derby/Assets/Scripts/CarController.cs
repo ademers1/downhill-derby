@@ -15,9 +15,13 @@ public class CarController : MonoBehaviour
     public Transform CM;
     public Rigidbody rb;
     float engineSpeedSound;
+    public float currentStrength;
+    public float Turbo;
+    public float TurboTime;
     // Start is called before the first frame update
     void Start()
     {
+       
         im = GetComponent<InputManager>();
         rb = GetComponent<Rigidbody>();
 
@@ -30,7 +34,9 @@ public class CarController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if(rb.velocity.magnitude > 100)
+      
+
+        if (rb.velocity.magnitude > 100)
         {
             engineSpeedSound = 100;
 
@@ -53,5 +59,31 @@ public class CarController : MonoBehaviour
         {
             mesh.transform.Rotate(mesh.transform.right * rb.velocity.magnitude / (2 * Mathf.PI * 0.08f) , 0f, 0f);
         }
+
+        
+    
+    
     }
+
+
+
+    private void OnCollisionEnter(Collision col)
+    {
+        switch (col.gameObject.tag)
+        {
+            case "SpeedBoost":
+                strengthCoefficient = currentStrength + Turbo;
+                break;
+
+           
+
+
+        
+
+        
+        }
+    }
+    
+
+
 }
