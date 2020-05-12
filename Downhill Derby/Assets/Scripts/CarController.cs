@@ -21,7 +21,7 @@ public class CarController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       
+        currentStrength = strengthCoefficient;
         im = GetComponent<InputManager>();
         rb = GetComponent<Rigidbody>();
 
@@ -65,25 +65,29 @@ public class CarController : MonoBehaviour
     
     }
 
-
-
-    private void OnCollisionEnter(Collision col)
+    private void Booster()
     {
-        switch (col.gameObject.tag)
-        {
-            case "SpeedBoost":
-                strengthCoefficient = currentStrength + Turbo;
-                break;
-
-           
-
-
-        
-
-        
-        }
+        strengthCoefficient=currentStrength;
     }
-    
+
+    private void OnTriggerEnter(Collider other)
+    {
+        strengthCoefficient = currentStrength * Turbo;
+        Invoke("Booster", TurboTime);
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
 
 
 }
